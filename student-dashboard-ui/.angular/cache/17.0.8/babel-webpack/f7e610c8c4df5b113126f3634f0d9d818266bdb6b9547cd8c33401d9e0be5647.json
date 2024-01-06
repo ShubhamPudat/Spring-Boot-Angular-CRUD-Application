@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { isBrowser } from './root';\n// @internal\nexport const __stores__ = {};\n// @internal\nexport const __queries__ = {};\nif (isBrowser) {\n  window.$$stores = __stores__;\n  window.$$queries = __queries__;\n}\n//# sourceMappingURL=stores.js.map","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

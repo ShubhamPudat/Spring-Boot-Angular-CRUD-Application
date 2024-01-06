@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { DEFAULT_ID_KEY } from './defaultIDKey';\n// @internal\nexport function toEntitiesIds(entities, idKey = DEFAULT_ID_KEY) {\n  const ids = [];\n  for (const entity of entities) {\n    ids.push(entity[idKey]);\n  }\n  return ids;\n}\n//# sourceMappingURL=toEntitiesIds.js.map","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}

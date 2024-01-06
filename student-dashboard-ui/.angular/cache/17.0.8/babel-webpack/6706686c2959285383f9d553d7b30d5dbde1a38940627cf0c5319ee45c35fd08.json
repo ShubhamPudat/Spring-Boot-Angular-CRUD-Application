@@ -1,0 +1,1 @@
+{"ast":null,"code":"import { isArray } from './isArray';\n// @internal\nexport function isNumber(value) {\n  return !isArray(value) && value - parseFloat(value) + 1 >= 0;\n}\n//# sourceMappingURL=isNumber.js.map","map":null,"metadata":{},"sourceType":"module","externalDependencies":[]}
